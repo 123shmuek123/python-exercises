@@ -8,3 +8,5 @@ while age<0 or age>120:
         print("adult")
     if (age>=61) or (age<=120):
         print("old")
+
+
