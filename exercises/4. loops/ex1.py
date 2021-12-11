@@ -1,6 +1,9 @@
 # even , odd
 
 # generate list from two numbers
+import time
+
+
 def input_method():
     # TODO: check which number is smaller
     number1 = int(input("enter a number1"))
@@ -15,5 +18,9 @@ def input_method():
     return inputed_list
 
 # is_even(num): -> bool
+
+
+def is_even(num):
+    return num % 2 == 0
 
 # iterate over list and find even numbers
